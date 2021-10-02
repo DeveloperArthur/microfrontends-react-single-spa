@@ -1,0 +1,9 @@
+o projeto "single-spa" serve como orquestrador dos microfrontends (em root-config configuramos as rotas dos microfrontends e no ejs nós importamos o microfrontend para o orquestrador)
+
+react-single, react-multiples e etc são projetos react, eles são os microfrontends
+
+criar microfrontend: npx create-single-spa > single-spa application
+
+criar orquestrador: npx create-single-spa > single-spa root config
+
+criar uma lib util: npx create-single-spa > in-browser utility module
